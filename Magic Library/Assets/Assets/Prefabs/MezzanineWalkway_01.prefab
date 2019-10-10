@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6948438097267301013}
   - component: {fileID: 2105091004475875491}
   - component: {fileID: 5623377963655126106}
-  - component: {fileID: 588177934781412134}
+  - component: {fileID: 3647492428684187669}
   m_Layer: 0
   m_Name: MezzanineWalkway_01
   m_TagString: Untagged
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &588177934781412134
-MeshCollider:
+--- !u!65 &3647492428684187669
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5062246478642505140, guid: 3f074412cb143bd44be02d129a78a0ef, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.5, z: 2}
+  m_Center: {x: 0, y: -0.25, z: 0}
