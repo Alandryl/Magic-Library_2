@@ -47,7 +47,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.36292368
+  - screenRelativeHeight: 0.40333012
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8329971067237182401}
@@ -80,11 +80,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7028166851483003760}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 82c4bcc1c898e2f48beda92aea1233fb,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_Fence
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 82c4bcc1c898e2f48beda92aea1233fb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -140,6 +135,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 82c4bcc1c898e2f48beda92aea1233fb,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_Fence
+      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 82c4bcc1c898e2f48beda92aea1233fb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -172,11 +172,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7028166851483003760}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 922d4d41bb801d845bec595f87ddcc47,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_Fence_LOD01
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 922d4d41bb801d845bec595f87ddcc47,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -231,6 +226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 922d4d41bb801d845bec595f87ddcc47,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_Fence_LOD01
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 922d4d41bb801d845bec595f87ddcc47,
         type: 3}
