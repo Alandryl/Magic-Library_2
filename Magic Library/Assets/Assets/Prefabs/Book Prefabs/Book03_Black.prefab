@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1951353898562874137
 Transform:
@@ -63,11 +63,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1951353898562874137}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 3846948d1ef720f4787dd2f18c86edee,
-        type: 3}
-      propertyPath: m_Name
-      value: Book03
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3846948d1ef720f4787dd2f18c86edee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -122,6 +117,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3846948d1ef720f4787dd2f18c86edee,
+        type: 3}
+      propertyPath: m_Name
+      value: Book03
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3846948d1ef720f4787dd2f18c86edee,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3846948d1ef720f4787dd2f18c86edee,
         type: 3}
@@ -169,11 +174,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1951353898562874137}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 4efa876c8a2077d4089049dedcd39ba1,
-        type: 3}
-      propertyPath: m_Name
-      value: Book03_LOD01
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4efa876c8a2077d4089049dedcd39ba1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -228,6 +228,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4efa876c8a2077d4089049dedcd39ba1,
+        type: 3}
+      propertyPath: m_Name
+      value: Book03_LOD01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4efa876c8a2077d4089049dedcd39ba1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 4efa876c8a2077d4089049dedcd39ba1,
         type: 3}
