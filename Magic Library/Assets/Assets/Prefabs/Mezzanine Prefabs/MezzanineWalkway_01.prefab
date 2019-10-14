@@ -61,7 +61,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.074060984
+  - screenRelativeHeight: 0.10002761
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2487486471715250728}
@@ -77,16 +77,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6948438097267301013}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 2457c2ffb7c9b074db123002d02d255e,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_01_LOD01
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2457c2ffb7c9b074db123002d02d255e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2457c2ffb7c9b074db123002d02d255e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -152,6 +142,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 55eb8a665589af941b3763578117ab3d, type: 2}
+    - target: {fileID: -927199367670048503, guid: 2457c2ffb7c9b074db123002d02d255e,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_01_LOD01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2457c2ffb7c9b074db123002d02d255e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2457c2ffb7c9b074db123002d02d255e, type: 3}
 --- !u!4 &147497178601267544 stripped
@@ -173,16 +173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6948438097267301013}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 5c4765200b201ad4980d392d0720a077,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_01
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5c4765200b201ad4980d392d0720a077,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5c4765200b201ad4980d392d0720a077,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -248,6 +238,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 7d8025878e66aab408e924dcba572bf0, type: 2}
+    - target: {fileID: -927199367670048503, guid: 5c4765200b201ad4980d392d0720a077,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5c4765200b201ad4980d392d0720a077,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c4765200b201ad4980d392d0720a077, type: 3}
 --- !u!4 &928546434740495591 stripped
