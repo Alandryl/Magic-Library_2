@@ -32,6 +32,7 @@ Transform:
   m_Children:
   - {fileID: 3051075998916275211}
   - {fileID: 7374067782606335894}
+  - {fileID: 3389577329308441213}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,14 +79,10 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5202357135796857177}
-  - screenRelativeHeight: 0.1
+  - screenRelativeHeight: 0.0036487603
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 5202357135796857177}
-  - screenRelativeHeight: 0.05
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 5202357135796857177}
+    - renderer: {fileID: 102946496690871474}
   m_Enabled: 1
 --- !u!1001 &2535323569965925516
 PrefabInstance:
@@ -94,16 +91,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6954351866419110627}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 5a722367e789a4e479c93794dce01a8d,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_FencePole_LOD01
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5a722367e789a4e479c93794dce01a8d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5a722367e789a4e479c93794dce01a8d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -158,6 +145,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5a722367e789a4e479c93794dce01a8d,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_FencePole_LOD01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5a722367e789a4e479c93794dce01a8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5a722367e789a4e479c93794dce01a8d,
         type: 3}
@@ -178,6 +175,92 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 2535323569965925516}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7669777851314090343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6954351866419110627}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_FencePole_LOD02
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 078dd9b668e2cc147bffe7cd721947d8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55eb8a665589af941b3763578117ab3d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 078dd9b668e2cc147bffe7cd721947d8, type: 3}
+--- !u!4 &3389577329308441213 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 078dd9b668e2cc147bffe7cd721947d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7669777851314090343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &102946496690871474 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: 078dd9b668e2cc147bffe7cd721947d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7669777851314090343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8011109589779367697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -185,16 +268,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6954351866419110627}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 692d067366d911a49b11ff31946a0fab,
-        type: 3}
-      propertyPath: m_Name
-      value: MezzanineWalkway_FencePole
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 692d067366d911a49b11ff31946a0fab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 692d067366d911a49b11ff31946a0fab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -249,6 +322,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 692d067366d911a49b11ff31946a0fab,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_FencePole
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 692d067366d911a49b11ff31946a0fab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 692d067366d911a49b11ff31946a0fab,
         type: 3}
