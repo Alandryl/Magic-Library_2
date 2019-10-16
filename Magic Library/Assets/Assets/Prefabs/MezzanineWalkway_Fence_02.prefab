@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1710963965389061614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2442579863225552893}
+  - component: {fileID: 7250652185364358372}
+  - component: {fileID: 265651999643439805}
+  m_Layer: 0
+  m_Name: MezzanineWalkway_Fence_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2442579863225552893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710963965389061614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18835223, y: -0.00000011212643, z: -16.354351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2442579862573608829}
+  - {fileID: 2442579862548990786}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7250652185364358372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710963965389061614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1.22, z: 0.19999999}
+  m_Center: {x: 0, y: 0.61, z: -0.0000000037252903}
+--- !u!205 &265651999643439805
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710963965389061614}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.61, z: 0.000000029802322}
+  m_Size: 4
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.3020558
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1117533335484901810}
+  - screenRelativeHeight: 0.005944445
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1117533335393242509}
+  m_Enabled: 1
+--- !u!1001 &7250652184706605144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2442579863225552893}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_Fence_02_LOD01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55eb8a665589af941b3763578117ab3d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 244bfa0063e0d6c4f8ef3412091ff979, type: 3}
+--- !u!4 &2442579862548990786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+    type: 3}
+  m_PrefabInstance: {fileID: 7250652184706605144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1117533335393242509 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: 244bfa0063e0d6c4f8ef3412091ff979,
+    type: 3}
+  m_PrefabInstance: {fileID: 7250652184706605144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7250652184744903783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2442579863225552893}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_Name
+      value: MezzanineWalkway_Fence_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: e1aaf31e12649524cb445a011e258ffc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55eb8a665589af941b3763578117ab3d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1aaf31e12649524cb445a011e258ffc, type: 3}
+--- !u!4 &2442579862573608829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e1aaf31e12649524cb445a011e258ffc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7250652184744903783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1117533335484901810 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: e1aaf31e12649524cb445a011e258ffc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7250652184744903783}
+  m_PrefabAsset: {fileID: 0}
