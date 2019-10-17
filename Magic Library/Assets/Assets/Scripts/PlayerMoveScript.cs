@@ -19,6 +19,8 @@ public class PlayerMoveScript : MonoBehaviour
     private float jumpMultiplier;
     [SerializeField]
     private KeyCode jumpKey;
+    [SerializeField]
+    private KeyCode sprintKey;
 
     [Header("Sounds")]
     private AudioSource audioSource;
@@ -28,6 +30,7 @@ public class PlayerMoveScript : MonoBehaviour
 
 
     private bool isJumping;
+    private int moveMultiplier = 1;
 
 
     private void Awake()
@@ -38,13 +41,22 @@ public class PlayerMoveScript : MonoBehaviour
 
     private void Update()
     {
-            PlayerMovement();
+        PlayerMovement();
+        if (Input.GetKey(sprintKey))
+        {
+            moveMultiplier = 2;
+        }
+        else
+        {
+            moveMultiplier = 1;
+        }
+
     }
     
     private void PlayerMovement()
     {
-    float horizInput = Input.GetAxis(horizontalInputName) * movementSpeed;
-    float vertInput = Input.GetAxis(verticalInputName) * movementSpeed;
+    float horizInput = Input.GetAxis(horizontalInputName) * movementSpeed * moveMultiplier;
+    float vertInput = Input.GetAxis(verticalInputName) * movementSpeed * moveMultiplier;
 
     Vector3 forwardMovement = transform.forward * vertInput;
     Vector3 rightMovement = transform.right * horizInput;
@@ -56,7 +68,7 @@ public class PlayerMoveScript : MonoBehaviour
 
     private void JumpInput()
     {
-        if(Input.GetKeyDown(jumpKey) && !isJumping)
+        if(Input.GetKey(jumpKey) && !isJumping)
         {
             isJumping = true;
             StartCoroutine(JumpEvent());
