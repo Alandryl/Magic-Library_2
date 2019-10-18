@@ -60,7 +60,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.60292494
+  - screenRelativeHeight: 0.40435916
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5752980392608910414}
@@ -89,16 +89,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2517303554122180639}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 51fb453011e0bac469b5545ba58f6248,
-        type: 3}
-      propertyPath: m_Name
-      value: BookShelf_Small_Thin_Books_01
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 51fb453011e0bac469b5545ba58f6248,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 51fb453011e0bac469b5545ba58f6248,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -154,10 +144,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51fb453011e0bac469b5545ba58f6248,
+        type: 3}
+      propertyPath: m_Name
+      value: BookShelf_Small_Thin_Books_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 51fb453011e0bac469b5545ba58f6248,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 51fb453011e0bac469b5545ba58f6248,
         type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 6
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 51fb453011e0bac469b5545ba58f6248,
         type: 3}
@@ -189,11 +189,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[5]
       value: 
       objectReference: {fileID: 2100000, guid: 9f8b20df24a2a244b93a862c88f903d6, type: 2}
-    - target: {fileID: -1504981713932161579, guid: 51fb453011e0bac469b5545ba58f6248,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51fb453011e0bac469b5545ba58f6248, type: 3}
 --- !u!1 &6334989226017290386 stripped
@@ -221,16 +216,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2517303554122180639}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: f16afb1760a34434f978e99075386dec,
-        type: 3}
-      propertyPath: m_Name
-      value: BookShelf_Small_Thin_Books_01_LOD01
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: f16afb1760a34434f978e99075386dec,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f16afb1760a34434f978e99075386dec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -286,10 +271,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f16afb1760a34434f978e99075386dec,
+        type: 3}
+      propertyPath: m_Name
+      value: BookShelf_Small_Thin_Books_01_LOD01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f16afb1760a34434f978e99075386dec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: f16afb1760a34434f978e99075386dec,
         type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 5
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: f16afb1760a34434f978e99075386dec,
         type: 3}
@@ -316,11 +311,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 9f8b20df24a2a244b93a862c88f903d6, type: 2}
-    - target: {fileID: -1504981713932161579, guid: f16afb1760a34434f978e99075386dec,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f16afb1760a34434f978e99075386dec, type: 3}
 --- !u!1 &1964255454938736104 stripped
